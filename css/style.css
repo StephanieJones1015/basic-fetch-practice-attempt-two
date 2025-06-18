@@ -7,11 +7,9 @@ header{
     justify-content: center;
     padding: 40px;  
     justify-content: center;  
-    margin: 0;
-   
+    margin: 0; 
 }
 h1 {
-    
     font-size: 3.0rem;
     margin: 0;
 }
@@ -31,7 +29,6 @@ h1 {
   color: black;
   text-decoration: none;
 }
-
 .button1:hover, .button2:hover, .button3:hover {
     background-color: lightgray;
     color: black;
@@ -56,23 +53,17 @@ h1 {
     border: solid 1px black;
     padding: 20px;
     margin: 0; 
-     
-
 }
-/* add media query for desktop that changes buttons to row layout */
+
 @media (min-width: 768px) {
     .buttons {
         display: flex;
         flex-direction: row;
         justify-content: center;        
-
-
     }
     .button1, .button2, .button3 {
         padding: 1rem 2rem;
         font-size: 1.2rem;
         height: 50px;
     }
-
-    
 }
