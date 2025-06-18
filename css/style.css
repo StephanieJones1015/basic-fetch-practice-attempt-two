@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(102, 161, 181);
+    background-color: rgb(112, 202, 231);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ h1 {
 .button1, .button2, .button3 {
   border: solid 1px black;
   display: inline-block;
-  background-color: rgb(186, 173, 173); 
+  background-color: rgb(214, 209, 209); 
   padding: 2rem 3 rem;
   border-radius: 2px;
   font-size: 1rem;
@@ -44,13 +44,19 @@ h1 {
     align-items: center;
     text-align: center;
     padding: 20px;
-    width: 90%;
+    width: 100%;
+    gap: 20px;;
+    border: solid 1px black;
 }
 .user-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     list-style: none;   
+    border: solid 1px black;
+    padding: 20px;
+    margin: 0; 
+     
 
 }
 /* add media query for desktop that changes buttons to row layout */
@@ -67,4 +73,6 @@ h1 {
         font-size: 1.2rem;
         height: 50px;
     }
+
+    
 }
