@@ -30,7 +30,7 @@ getUsers.addEventListener("click", () => {
             const li4 = document.createElement('li');
             li1.textContent = `Name: ${user.firstName} ${user.lastName}`; 
             li2.textContent = `Email: ${user.email}`;
-            li3.textContent = `Company: ${user.companyName}`;
+            li3.textContent = `Company Name: ${user.companyName}`;
             li4.textContent = `Years Employed: ${user.yearsEmployed}`;
             userContainer.appendChild(ul); 
             ul.appendChild(li1); 
@@ -54,7 +54,7 @@ underTen.addEventListener("click", () => {
             const li4 = document.createElement('li');
             li1.textContent = `Name: ${user.firstName} ${user.lastName}`; 
             li2.textContent = `Email: ${user.email}`;
-            li3.textContent = `Company: ${user.companyName}`;
+            li3.textContent = `Company Name: ${user.companyName}`;
             li4.textContent = `Years Employed: ${user.yearsEmployed}`;
             userContainer.appendChild(ul); 
             ul.appendChild(li1); 
